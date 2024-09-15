@@ -1,0 +1,127 @@
+*{
+
+    margin: 0;
+}
+body{
+
+    background-color: rgb(41, 35, 35);
+}
+header{
+
+    
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+    background-color: rgb(0, 0, 0);
+
+
+}
+h1{
+
+    color: white;
+
+}
+a{
+
+ text-decoration: none;
+ color: white;
+}
+a:hover{
+
+    color: aqua;
+}
+.Opciones{
+
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 200px;
+    height: 80px;
+}
+.Buscar{
+
+display: flex;
+
+
+}
+p{
+    
+    color: white;
+    font-style: oblique;
+}
+input{
+
+    height: 20px;
+    border-radius: 5%;
+    border: 2px solid gray;
+}
+i{
+
+    margin-top: 5px;
+}
+.lineadivisora{
+    
+    width: 100%;
+    height: 6px;
+    background-color: white;
+}
+main{
+
+    display: flex;
+    width: 100%;
+    height: 500px;
+
+}
+.panel1{
+
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    flex-direction: column; 
+    width: 20%;
+    height: 500px;
+    background-color: black;
+}
+.panel2{
+
+    width:60%;
+    height: 500px;
+    background-color: rgb(20, 16, 16);
+}
+.panel3{
+
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    flex-direction: column; 
+    width: 20%;
+    height: 500px;
+    background-color: black;
+}
+
+section{
+
+    display: flex;
+    width: 100%;
+    height: 200px;
+    background-color: rgb(29, 29, 29);
+}
+.CN{
+    display: flex;
+    text-align: center;
+}
+.imagenesP{
+
+    width: 100px;
+    height: 100px;
+    border: 2px solid white;
+    margin: 3px;
+    border-radius: 5%;
+}
+.IN{
+    margin-top: 40px;
+    margin-left: 3px;
+}
